@@ -8,5 +8,5 @@ spec:
   ports:
   - protocol: TCP
     port: 4000
-    nodePort: 30000
+    nodePort: 31200
   type: NodePort
