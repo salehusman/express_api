@@ -7,7 +7,7 @@ metadata:
     kubernetes.io/ingress.class: traefik
     traefik.ingress.kubernetes.io/router.middlewares: testing-https-redirect@kubernetescrd
   labels:
-    app.kubernetes.io/instance: webapp-service
+    app.kubernetes.io/instance: webapp-test
 spec:
   ingressClassName: nginx
   rules:
