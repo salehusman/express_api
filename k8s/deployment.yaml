@@ -16,9 +16,9 @@ spec:
     spec:
       containers:
       - name: nodeapp
-        image: nginx:latest
+        image: salehusman/webapp
         ports:
-        - containerPort: 80
+        - containerPort: 3000
         resources:
           limits:
             memory: 512Mi
