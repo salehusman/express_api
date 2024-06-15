@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: "webapp.localhost"
+  - host: "webapp.info"
     http:
       paths:
       - pathType: Prefix
