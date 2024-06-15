@@ -3,9 +3,9 @@ kind: Ingress
 metadata:
   name: webapp-ingress
 spec:
-  # ingressClassName: nginx
+  ingressClassName: nginx
   rules:
-    - host: localhost
+    - host: webapp.info
       http:
         paths:
           - path: /
