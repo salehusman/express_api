@@ -26,14 +26,13 @@ spec:
         - webapp.info
       secretName: morpheus-webapp-cert
 ---
-
 apiVersion: traefik.containo.us/v1alpha1
 kind: Middleware
 metadata:
   labels:
     app.kubernetes.io/instance: webapp-test
   name: https-redirect
-  namespace: testing
+  namespace: default
 spec:
   redirectScheme:
     permanent: true
