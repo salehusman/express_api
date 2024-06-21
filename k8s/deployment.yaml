@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeapp
-        image: harbor.geticlick.com/webapp/backend@sha256:d8706ceab58fc3db869eb2d3cc5c9d4865d05e16b2212e530fb37c4639b3a44c
+        image: https://harbor.geticlick.com/webapp/backend:1.1
         ports:
         - containerPort: 5000
         resources:
